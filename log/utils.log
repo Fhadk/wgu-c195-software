@@ -1,0 +1,15 @@
+2019-03-03 00:40:45,548 [main] (Database.java:31) INFO  - Connection Established Successfully !! 
+2019-03-03 00:48:20,477 [main] (Database.java:31) INFO  - Connection Established Successfully !! 
+2019-03-03 00:48:53,713 [main] (Database.java:47) INFO  - Connection Terminated Successfully !! 
+2019-03-03 11:17:05,118 [main] (Database.java:31) INFO  - Connection Established Successfully !! 
+2019-03-03 11:18:17,438 [main] (Database.java:47) INFO  - Connection Terminated Successfully !! 
+2019-03-03 11:20:12,605 [main] (Database.java:31) INFO  - Connection Established Successfully !! 
+2019-03-03 11:23:22,895 [main] (Database.java:47) INFO  - Connection Terminated Successfully !! 
+2019-03-03 11:26:34,558 [main] (Database.java:31) INFO  - Connection Established Successfully !! 
+2019-03-03 11:27:18,429 [main] (Database.java:47) INFO  - Connection Terminated Successfully !! 
+2019-03-03 11:27:54,071 [main] (Database.java:31) INFO  - Connection Established Successfully !! 
+2019-03-03 11:28:36,300 [main] (Database.java:47) INFO  - Connection Terminated Successfully !! 
+2019-03-03 11:31:31,299 [main] (Database.java:31) INFO  - Connection Established Successfully !! 
+2019-03-03 11:32:10,432 [main] (Database.java:47) INFO  - Connection Terminated Successfully !! 
+2019-03-03 11:45:24,649 [main] (Database.java:31) INFO  - Connection Established Successfully !! 
+2019-03-03 11:45:48,869 [main] (Database.java:47) INFO  - Connection Terminated Successfully !! 

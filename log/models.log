@@ -1,0 +1,86 @@
+2019-03-03 00:40:51,625 [JavaFX Application Thread] (UserDB.java:27) INFO  - User Logged in: admin
+2019-03-03 00:40:51,769 [Thread-6] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 12:40:51.765' AND '2019-03-03 12:55:51.765'
+2019-03-03 00:40:52,654 [Thread-4] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 19:40:51.765' AND '2019-03-03 19:55:51.765'
+2019-03-03 00:40:52,654 [Thread-5] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 14:40:51.765' AND '2019-03-03 14:55:51.765'
+2019-03-03 00:40:53,837 [JavaFX Application Thread] (CustomerDB.java:48) DEBUG - SELECT customer.customerId, customer.customerName, address.address, address.phone, address.postalCode, city.city FROM customer  INNER JOIN address ON customer.addressId = address.addressId  INNER JOIN city ON address.cityId = city.cityId
+2019-03-03 00:40:56,139 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 00:40:56,537 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 00:48:26,384 [JavaFX Application Thread] (UserDB.java:27) INFO  - User Logged in: admin
+2019-03-03 00:48:26,533 [Thread-5] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 14:48:26.524' AND '2019-03-03 15:03:26.524'
+2019-03-03 00:48:26,533 [Thread-4] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 19:48:26.524' AND '2019-03-03 20:03:26.524'
+2019-03-03 00:48:28,122 [JavaFX Application Thread] (CustomerDB.java:48) DEBUG - SELECT customer.customerId, customer.customerName, address.address, address.phone, address.postalCode, city.city FROM customer  INNER JOIN address ON customer.addressId = address.addressId  INNER JOIN city ON address.cityId = city.cityId
+2019-03-03 00:48:28,122 [Thread-6] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 12:48:26.571' AND '2019-03-03 13:03:26.571'
+2019-03-03 00:48:32,571 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 00:48:32,957 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 11:17:14,647 [JavaFX Application Thread] (UserDB.java:30) ERROR - User Authentication issue 
+2019-03-03 11:17:20,073 [JavaFX Application Thread] (UserDB.java:27) INFO  - User Logged in: admin
+2019-03-03 11:17:20,324 [Thread-6] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 23:17:20.319' AND '2019-03-03 23:32:20.319'
+2019-03-03 11:17:20,677 [Thread-5] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 01:17:20.319' AND '2019-03-03 01:32:20.319'
+2019-03-03 11:17:20,677 [Thread-4] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 06:17:20.319' AND '2019-03-03 06:32:20.319'
+2019-03-03 11:17:21,711 [JavaFX Application Thread] (CustomerDB.java:48) DEBUG - SELECT customer.customerId, customer.customerName, address.address, address.phone, address.postalCode, city.city FROM customer  INNER JOIN address ON customer.addressId = address.addressId  INNER JOIN city ON address.cityId = city.cityId
+2019-03-03 11:17:25,514 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:17:25,783 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 11:17:45,499 [JavaFX Application Thread] (AppointmentDB.java:190) DEBUG - UPDATE appointment SET title='InvestPlan ', description=' Action Plan', contact='Cricus', location='London', start='2019-03-03 10:00', end='2019-03-03 11:00' WHERE appointmentId='65'
+2019-03-03 11:17:45,774 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:17:46,376 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 11:18:04,039 [JavaFX Application Thread] (AppointmentDB.java:190) DEBUG - UPDATE appointment SET title='Consultation ', description=' Tax Preparation', contact='Ragnar', location='Phoenix', start='2019-03-03 09:00', end='2019-03-03 10:00' WHERE appointmentId='65'
+2019-03-03 11:18:04,977 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:18:05,633 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 11:20:17,907 [JavaFX Application Thread] (UserDB.java:27) INFO  - User Logged in: admin
+2019-03-03 11:20:18,043 [Thread-6] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 23:20:18.039' AND '2019-03-03 23:35:18.039'
+2019-03-03 11:20:19,028 [Thread-4] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 06:20:18.04' AND '2019-03-03 06:35:18.04'
+2019-03-03 11:20:19,028 [Thread-5] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 01:20:18.039' AND '2019-03-03 01:35:18.039'
+2019-03-03 11:20:19,876 [JavaFX Application Thread] (CustomerDB.java:48) DEBUG - SELECT customer.customerId, customer.customerName, address.address, address.phone, address.postalCode, city.city FROM customer  INNER JOIN address ON customer.addressId = address.addressId  INNER JOIN city ON address.cityId = city.cityId
+2019-03-03 11:20:23,778 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:20:24,185 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 11:20:52,728 [JavaFX Application Thread] (AppointmentDB.java:154) DEBUG - SELECT MAX(appointmentId) ID FROM appointment
+2019-03-03 11:20:53,763 [JavaFX Application Thread] (AppointmentDB.java:160) DEBUG - 68
+2019-03-03 11:20:53,764 [JavaFX Application Thread] (AppointmentDB.java:167) DEBUG - INSERT INTO appointment SET appointmentId = '68', customerId='1', title='Consultation ', description=' Tax Preparation', contact='Ragnar', location='Phoenix', start='2019-03-03 09:00', end='2019-03-03 10:00', url='', createDate=NOW(), createdBy='', lastUpdate=NOW(), lastUpdateBy=''
+2019-03-03 11:20:54,795 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:20:55,409 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 11:21:09,473 [JavaFX Application Thread] (AppointmentDB.java:233) DEBUG - DELETE FROM appointment WHERE appointmentId = 68
+2019-03-03 11:21:09,905 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:21:40,996 [JavaFX Application Thread] (AppointmentDB.java:208) DEBUG - SELECT * FROM appointment WHERE start = '2019-03-03 09:00' AND location = 'Phoenix'
+2019-03-03 11:21:41,288 [JavaFX Application Thread] (AppointmentDB.java:190) DEBUG - UPDATE appointment SET title='Consultation ', description=' Tax Preparation', contact='Ragnar', location='Phoenix', start='2019-03-03 09:00', end='2019-03-03 10:00' WHERE appointmentId='65'
+2019-03-03 11:21:41,837 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:21:42,415 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 11:21:58,233 [JavaFX Application Thread] (AppointmentDB.java:208) DEBUG - SELECT * FROM appointment WHERE start = '2019-03-03 09:00' AND location = 'London'
+2019-03-03 11:21:59,215 [JavaFX Application Thread] (AppointmentDB.java:190) DEBUG - UPDATE appointment SET title='ROI ', description=' Stock Market', contact='Cricus', location='London', start='2019-03-03 09:00', end='2019-03-03 10:00' WHERE appointmentId='65'
+2019-03-03 11:22:00,024 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:22:01,140 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 11:23:00,471 [JavaFX Application Thread] (AppointmentDB.java:208) DEBUG - SELECT * FROM appointment WHERE start = '2019-03-03 09:00' AND location = 'Phoenix'
+2019-03-03 11:26:44,084 [JavaFX Application Thread] (UserDB.java:27) INFO  - User Logged in: admin
+2019-03-03 11:26:44,173 [Thread-6] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 23:26:44.171' AND '2019-03-03 23:41:44.171'
+2019-03-03 11:26:44,932 [Thread-4] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 06:26:44.171' AND '2019-03-03 06:41:44.171'
+2019-03-03 11:26:44,932 [Thread-5] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 01:26:44.172' AND '2019-03-03 01:41:44.172'
+2019-03-03 11:26:45,831 [JavaFX Application Thread] (CustomerDB.java:48) DEBUG - SELECT customer.customerId, customer.customerName, address.address, address.phone, address.postalCode, city.city FROM customer  INNER JOIN address ON customer.addressId = address.addressId  INNER JOIN city ON address.cityId = city.cityId
+2019-03-03 11:26:47,835 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:26:48,097 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 11:27:10,141 [JavaFX Application Thread] (AppointmentDB.java:208) DEBUG - SELECT * FROM appointment WHERE start = '2019-03-03 09:00' AND location = 'London'
+2019-03-03 11:28:05,145 [JavaFX Application Thread] (UserDB.java:27) INFO  - User Logged in: admin
+2019-03-03 11:28:05,382 [Thread-6] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 23:28:05.376' AND '2019-03-03 23:43:05.376'
+2019-03-03 11:28:05,893 [Thread-4] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 06:28:05.376' AND '2019-03-03 06:43:05.376'
+2019-03-03 11:28:05,893 [Thread-5] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 01:28:05.376' AND '2019-03-03 01:43:05.376'
+2019-03-03 11:28:06,634 [JavaFX Application Thread] (CustomerDB.java:48) DEBUG - SELECT customer.customerId, customer.customerName, address.address, address.phone, address.postalCode, city.city FROM customer  INNER JOIN address ON customer.addressId = address.addressId  INNER JOIN city ON address.cityId = city.cityId
+2019-03-03 11:28:09,298 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:28:10,829 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 11:28:27,689 [JavaFX Application Thread] (AppointmentDB.java:208) DEBUG - SELECT * FROM appointment WHERE start = '2019-03-03 11:00' AND location = 'Phoenix'
+2019-03-03 11:28:27,981 [JavaFX Application Thread] (AppointmentDB.java:154) DEBUG - SELECT MAX(appointmentId) ID FROM appointment
+2019-03-03 11:28:28,629 [JavaFX Application Thread] (AppointmentDB.java:160) DEBUG - 68
+2019-03-03 11:28:28,630 [JavaFX Application Thread] (AppointmentDB.java:167) DEBUG - INSERT INTO appointment SET appointmentId = '68', customerId='1', title='ROI ', description=' Stock Market', contact='Ragnar', location='Phoenix', start='2019-03-03 11:00', end='2019-03-03 12:00', url='', createDate=NOW(), createdBy='', lastUpdate=NOW(), lastUpdateBy=''
+2019-03-03 11:28:29,092 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:28:31,042 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 11:31:44,548 [JavaFX Application Thread] (UserDB.java:27) INFO  - User Logged in: admin
+2019-03-03 11:31:44,694 [Thread-6] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 23:31:44.684' AND '2019-03-03 23:46:44.684'
+2019-03-03 11:31:46,063 [JavaFX Application Thread] (CustomerDB.java:48) DEBUG - SELECT customer.customerId, customer.customerName, address.address, address.phone, address.postalCode, city.city FROM customer  INNER JOIN address ON customer.addressId = address.addressId  INNER JOIN city ON address.cityId = city.cityId
+2019-03-03 11:31:46,064 [Thread-4] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 06:31:44.684' AND '2019-03-03 06:46:44.684'
+2019-03-03 11:31:46,064 [Thread-5] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 01:31:44.684' AND '2019-03-03 01:46:44.684'
+2019-03-03 11:31:49,834 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:31:50,214 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'
+2019-03-03 11:45:33,687 [JavaFX Application Thread] (UserDB.java:27) INFO  - User Logged in: admin
+2019-03-03 11:45:34,030 [Thread-6] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 23:45:34.016' AND '2019-03-04 00:00:34.016'
+2019-03-03 11:45:34,300 [Thread-5] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 01:45:34.016' AND '2019-03-03 02:00:34.016'
+2019-03-03 11:45:34,300 [Thread-4] (AppointmentDB.java:100) DEBUG - SELECT * FROM appointment WHERE start BETWEEN '2019-03-03 06:45:34.016' AND '2019-03-03 07:00:34.016'
+2019-03-03 11:45:35,562 [JavaFX Application Thread] (CustomerDB.java:48) DEBUG - SELECT customer.customerId, customer.customerName, address.address, address.phone, address.postalCode, city.city FROM customer  INNER JOIN address ON customer.addressId = address.addressId  INNER JOIN city ON address.cityId = city.cityId
+2019-03-03 11:45:38,673 [JavaFX Application Thread] (AppointmentDB.java:34) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-04-03'
+2019-03-03 11:45:38,969 [JavaFX Application Thread] (AppointmentDB.java:61) DEBUG - SELECT * FROM appointment WHERE customerId = '1' AND start >= '2019-03-03' AND start <= '2019-03-10'

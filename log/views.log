@@ -1,0 +1,26 @@
+2019-03-03 00:40:51,727 [Thread-4] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of London
+2019-03-03 00:40:51,727 [Thread-6] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of Phoenix
+2019-03-03 00:40:51,727 [Thread-5] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of New York
+2019-03-03 00:48:26,492 [Thread-4] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of London
+2019-03-03 00:48:26,492 [Thread-5] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of New York
+2019-03-03 00:48:26,492 [Thread-6] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of Phoenix
+2019-03-03 11:17:20,181 [Thread-4] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of London
+2019-03-03 11:17:20,181 [Thread-6] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of Phoenix
+2019-03-03 11:17:20,181 [Thread-5] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of New York
+2019-03-03 11:20:18,003 [Thread-4] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of London
+2019-03-03 11:20:18,004 [Thread-6] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of Phoenix
+2019-03-03 11:20:18,003 [Thread-5] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of New York
+2019-03-03 11:26:44,138 [Thread-5] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of New York
+2019-03-03 11:26:44,138 [Thread-6] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of Phoenix
+2019-03-03 11:26:44,138 [Thread-4] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of London
+2019-03-03 11:28:05,302 [Thread-5] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of New York
+2019-03-03 11:28:05,303 [Thread-6] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of Phoenix
+2019-03-03 11:28:05,302 [Thread-4] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of London
+2019-03-03 11:31:44,650 [Thread-4] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of London
+2019-03-03 11:31:44,650 [Thread-6] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of Phoenix
+2019-03-03 11:31:44,650 [Thread-5] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of New York
+2019-03-03 11:31:55,925 [JavaFX Application Thread] (ReportsMainController.java:115) DEBUG - SELECT customer.customerName as Name, COUNT(*) as Total FROM customer JOIN appointment ON customer.customerId = appointment.customerId GROUP BY customerName
+2019-03-03 11:31:58,627 [JavaFX Application Thread] (ReportsMainController.java:115) DEBUG - SELECT customer.customerName as Name, COUNT(*) as Total FROM customer JOIN appointment ON customer.customerId = appointment.customerId GROUP BY customerName
+2019-03-03 11:45:33,788 [Thread-5] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of New York
+2019-03-03 11:45:33,788 [Thread-4] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of London
+2019-03-03 11:45:33,790 [Thread-6] (MainController.java:126) DEBUG - >>>>>> Going to check for 15MinAppointment of Phoenix
